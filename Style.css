@@ -69,13 +69,13 @@
 
 /* Style du texte */
 .home h1 {
-    font-size: 46px;
+    font-size: 72px;
     font-weight: bold;
     font-family: pacifico-regular, sans-serif;
 }
 
 .home p {
-    font-size: 26px;
+    font-size: 40px;
 }
 
 /* Section À Propos */
