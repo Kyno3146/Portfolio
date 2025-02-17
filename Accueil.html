@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" >
+    <title>Portfolio Kyllian RIVIERE</title>
+    <link href="style.css" rel="stylesheet" >
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    <script type="module">
+        import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs";
+        mermaid.initialize({ startOnLoad: true, theme: "dark"});
+    </script>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top navbar-custom">
+            <div class="container-fluid">
+                <a class="navbar-brand"  href="#homescreen">KR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                      <li class='nav-item'>
+                          <a href="#aboutscreen" class="nav-link">À propos</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a href="#competencescreen" class="nav-link" >Compétences</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a href="#formationscreen" class="nav-link">Formation</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a href="#portfolioscreen" class="nav-link" >Portfolio</a>
+                      </li>
+                      <li class='nav-item'>
+                          <a href="#contactscreen" class="nav-link" >Me contacter</a>
+                      </li>
+                      <li class='nav-item'>
+                        <a href="CV_Kyllian_RIVIERE.pdf" class="nav-link" download>
+                            CV <i class="fas fa-download cv-icon"></i>
+                        </a>
+                      </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="homescreen" class="home">
+        <div class="overlay">
+            <h1>Kyllian Riviere</h1>
+            <p>Etudiant informatique</p>
+        </div>
+    </section>
+    <section id="aboutscreen" class="a-propos">
+        <h1>A-Propos</h1>
+        <p>
+            Actuellement en première année de BUT informatique, je suis à la recherche d'une alternance pour compléter ma formation et mettre en 
+            oeuvre les compétences acquises lors de ma formation.   
+        </p>
+    </section>
+    <section id="competencescreen" class="compétences">
+        <h1>Compétences</h1>
+        <h2> - Langues</h2>
+        <div>
+            <img class="flagImage" src="France.png" alt="Français">
+            <h3>Français</h3>
+            <p>Langue Maternelle</p>
+        </div>
+        <div>
+            <img class="flagImage" src="UK.png" alt="Anglais">
+            <h3>Anglais</h3>
+            <p>Niveau B2</p>
+        </div>
+        <div>
+            <img class="flagImage" src="Espagne.png" alt="Espagnol">
+            <h3>Espagnol</h3>
+            <p>Niveau B1</p>
+        </div>
+        <div>
+            <img class="flagImage" src="Allemagne.png" alt="Allemand">
+            <h3>Allemand</h3>
+            <p>Niveau A2</p>
+        </div>
+        <br>
+        <h2> - Langages informatiques</h2>
+        <section class="competences-info">
+            <div class="categories">
+                <div class="category">
+                    <h2>Web :</h2>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h2>Base de données :</h2>
+                    <ul>
+                        <li>MySQL</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h2>Programmation :</h2>
+                    <ul>
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>C</li>
+                        <li>Python</li>
+                        <li>Bash</li>
+                    </ul>
+                </div>
+                <div class="category">
+                    <h2>Autres :</h2>
+                    <ul>
+                        <li>Développement d'IHM</li>
+                        <li>Logisim</li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+    </section>
+    <section id="formationscreen" class="formation">
+        <h1>Formation</h1>
+        <div class="mermaid">
+            timeline
+                2021 : Brevet des collèges : Mention trés bien
+                2021 - 2024 : Lycée Polivalent Jean-Pierre Vernant : 31600 Pins-Justaret
+                2024 : Baccalauréat général : Spétialités  Maths, Sciences de l'ingénieur : Option  Maths expertes : Mention assez bien
+		        2024 - Aujourd'hui : BUT Informatique : 58000 Nevers
+        </div> 
+    </section>
+    <section id="portfolioscreen" class="portfolio">
+        <h1>Portfolio</h1>
+        <h2>- Projets liés à ma formation</h2>
+        <h3>- Projets terminés :</h3>
+        <div class="projects">
+            <div class="card">
+                <img src="ProjetIA.webp" alt="Projet 1">
+                <div class="card-content">
+                    <h2>IA Morpion</h2>
+                    <p>Dans le cadre d'une de nos SAE, nous devions développer une IA capable de jouer au morpion sur une grille de taille NxN où l'on devait aligner K pions. Nous devions également prendre en compte le temps d'exécution et donc trouver un compromis entre une IA qui calcule tout et une IA rapide à jouer.</p>
+                    <div class="badge">C++</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetInstall.webp" alt="Projet 2">
+                <div class="card-content">
+                    <h2>Installation & Configuration</h2>
+                    <p>Ce projet nous imposait de proposer plusieurs configurations de PC pour des clients fictifs aux profils différents, puis de simuler l'installation d'un système d'exploitation en utilisant une machine virtuelle. Enfin, la dernière étape de ce projet consistait à écrire des scripts Bash pour automatiser des tâches selon les besoins du client.</p>
+                    <div class="badge">Bash</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetBDD.webp" alt="Projet 3">
+                <div class="card-content">
+                    <h2>Bases de données</h2>
+                    <p>Pour cette SAE, nous devions créer une base de données pour gérer les stocks et commandes d'une chocolaterie dont les exigences nous étaient données. Nous devions donc modéliser la base de données en MLD, la convertir en SQL et enfin réaliser un jeu de tests pour essayer les relations entre les tables de la BDD.</p>
+                    <div class="badge">MySQL</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetArchi.webp" alt="Projet 4">
+                <div class="card-content">
+                    <h2>Architechture des ordinateurs</h2>
+                    <p>Ce projet s'est fait sur 8h de cours et du temps de travail à la maison. Nous devions virtuellement recoder le fonctionnement d'un processeur en portes logiques grâce à Logisim. </p>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="badge">Logisim</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <h3>Projets en cours :</h3>
+        <div class="projects">
+            <div class="card">
+                <img src="ProjetGP.webp" alt="Projet 1">
+                <div class="card-content">
+                    <h2>Gestion de Projet</h2>
+                    <p>Pour cette SAE, nous devons simuler la gestion d'un projet de création de site e-commerce pour un faïencier. Pour ce projet, nous ne sommes donc pas chargés de coder le site web, mais de gérer le projet, c'est-à-dire établir un cahier des charges en fonction des besoins du client, établir un budget et créer un diagramme de Gantt.</p>
+                    
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetExploration.webp" alt="Projet 2">
+                <div class="card-content">
+                    <h2>Exploration</h2>
+                    <p>Cette SAE a pour objectif de nous faire trouver le plus court chemin entre 190 restaurants. Ce problème de graphes nous impose donc de coder des algorithmes pour le résoudre en maintenant un temps d'exécution acceptable, tout en trouvant un chemin le plus court possible, testant ainsi nos compétences en optimisation.</p>
+                    <div class="badge">C#</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetMonopoly.webp" alt="Projet 3">
+                <div class="card-content">
+                    <h2>Monopoly F1</h2>
+                    <p>Ce projet regroupe les SAE de Développement et de BDD. Nous avions pour seule consigne de créer une application en utilisant la programmation orientée objets et les Interfaces Homme-Machine. Avec mon binôme, étant passionnés de sport auto, nous avons choisi de recréer un Monopoly sur le thème de la F1.</p>
+                    <div class="badge">C#</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="" alt="Projet 3">
+                <div class="card-content">
+                    <h2>Travail d'équipe</h2>
+                    <p>En attente de la SAE</p>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+        <h2>- Projets personels</h2>
+        <div class="projects-perso">
+            <div class="card">
+                <img src="ImagePortfolio.webp" alt="Projet 1">
+                <div class="card-content">
+                    <h2>Portfolio</h2>
+                    <p>J'ai créé ce portfolio que vous pouvez actuellement visiter en HTML/CSS. J'ai pour projet de tenir cette page web à jour et de la perfectionner afin qu'elle accompagne mon CV. J'ai normalement codé cette page web pour qu'elle soit responsive et qu'il n'y ait pas de problème pour l'ouvrir, quel que soit le support.</p>
+                    <div class="badge">Html / css</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="ProjetPython.webp" alt="Projet 2">
+                <div class="card-content">
+                    <h2>Shooter</h2>
+                    <p>Dans l'objectif de me plonger dans un projet plus concret de code, j'ai créé ce shooter en Python en suivant une série de tutoriels sur Internet. Ce projet personnel, bien que faible en réflexion personnelle sur le code, m'a permis de me rendre compte de ce que donnait un projet de plus grande ampleur.</p>
+                    <div class="badge">Python</div>
+                    <a href="#" class="btn">Voir le projet</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="contactscreen" class="me-contacter">
+        <h1>Me contacter</h1>
+        <p>
+            Vous pouvez me contacter aux endroits suivants : 
+            <br>
+            mail : kyllian.riviere@gmail.com
+            <br>
+            tèl : +337 82 80 14 14 
+            <br>
+            adresse : 3 impasse beaussang 31600 Saubens
+        </p>
+
+    </section>
+
+</body>
+<br>
+<br>
+<br>
+
+
+</html>
