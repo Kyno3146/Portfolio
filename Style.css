@@ -309,8 +309,8 @@ section {
     font-size: 12px;
 }
 
-.footer p {
+footer p {
     text-align: center;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
 }
