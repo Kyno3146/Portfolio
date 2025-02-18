@@ -308,3 +308,9 @@ section {
     border-radius: 20px; /* Forme ovale */
     font-size: 12px;
 }
+
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
