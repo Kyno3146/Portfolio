@@ -314,3 +314,13 @@ footer {
     font-weight: bold;
     font-size: 30px;
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
