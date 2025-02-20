@@ -316,10 +316,10 @@ footer {
 }
 
 footer {
-    background-color: #000;
-    color: #fff;
+    background-color: white;
+    color: #000;
     text-align: center;
     padding: 10px;
-    width: 100%;
     font-size: 20px;
+    width: 100%;
 }
