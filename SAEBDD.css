@@ -17,37 +17,40 @@ h1 {
     max-width: 800px;
 }
 
-    .description h2 {
-        color: #000;
-        font-size: 1.5em;
-        justify-content: center;
-        text-align: center;
-    }
-
-    .description p {
-        color: #000;
-        font-size: 1em;
-        justify-content: center;
-        text-align: center;
-    }
-
-.video-section {
+.description h2 {
+    color: #000;
+    font-size: 2em;
+    justify-content: center;
     text-align: center;
-    margin: 20px 0;
 }
 
-    .video-section h2 {
-        color: #000;
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
+.description p {
+    color: #000;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+}
 
-    .video-section video {
-        max-width: 100%;
-        height: auto;
-        border: 2px solid #000;
-        border-radius: 10px;
-    }
+
+
+.description h3 {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #333; /* Ajout d'une bordure */
+}
+
 
 footer {
     background-color: white;
