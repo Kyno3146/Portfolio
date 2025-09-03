@@ -1,0 +1,105 @@
+.navbar-custom {
+    background-color: #f8f9fa; /* Couleur de fond */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Légère ombre */
+    padding: 10px 20px;
+}
+
+/* Style du texte et des liens */
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    font-size: 20px;
+    color: #333; /* Couleur du logo */
+}
+
+.navbar-custom .nav-link {
+    font-size: 16px;
+    color: #555; /* Couleur des liens */
+    margin-right: 15px; /* Espacement entre les liens */
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #007bff; /* Bleu Bootstrap au survol */
+}
+
+/* Bouton burger */
+.navbar-toggler {
+    border: none;
+}
+
+/* Icône du CV */
+.navbar-custom .cv-icon {
+    font-size: 18px;
+    color: #555;
+    margin-left: 5px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar-custom .cv-icon:hover {
+    color: #007bff;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.description {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+
+.description h2 {
+    color: #000;
+    font-size: 2em;
+    justify-content: center;
+    text-align: center;
+}
+
+.description p {
+    color: #000;
+    font-size: 1em;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.description h3 {
+    color: #333;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    border: 2px solid #333; /* Ajout d'une bordure */
+}
+
+
+footer {
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    font-weight: bold;
+}
